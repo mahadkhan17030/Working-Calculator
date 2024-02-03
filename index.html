@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+        <div>
+            <input class="abc" type="text" id="displayinput" disabled>
+            <div class="buttons">
+                <button onclick="getVal(7)" id="btn">7</button>
+                <button onclick="getVal(8)" id="btn">8</button>
+                <button onclick="getVal(9)" id="btn">9</button>
+                <button onclick="getVal('/')" id="btn">/</button>
+                <button onclick="getVal(4)" id="btn">4</button>
+                <button onclick="getVal(5)" id="btn">5</button>
+                <button onclick="getVal(6)" id="btn">6</button>
+                <button onclick="getVal('*')" id="btn">x</button>
+                <button onclick="getVal(1)" id="btn">1</button>
+                <button onclick="getVal(2)" id="btn">2</button>
+                <button onclick="getVal(3)" id="btn">3</button>
+                <button onclick="getVal('-')" id="btn">-</button>
+                <button onclick="getVal('.')" id="btn">.</button>
+                <button onclick="getVal(0)" id="btn">0</button>
+                <button onclick="getVal('+')" id="btn">+</button>
+                <button onclick="nill()" class="clearbtn" id="btn">C</button>
+                <button onclick="calculate()" class="equalbtn" id="btn">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
